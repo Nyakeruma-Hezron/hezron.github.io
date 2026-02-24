@@ -2,56 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nyakeruma Hezron | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Nyakeruma Hezron</h1>
-        <p>AI Systems Architect | Machine Learning | Telecommunication Engineer</p>
-        <nav>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="logo">Hezron</div>
+    <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-        <div class="project">
-            <h3>AI Healthcare Assistant</h3>
-            <p>Developed a system for patient symptom tracking, lab test suggestions, and medical recommendations using AI.</p>
-            <a href="https://github.com/hezron/project1" target="_blank">View Code</a>
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h4>HELLO!</h4>
+        <h1>I'm <span>Nyakeruma Hezron</span></h1>
+        <h3>AI Systems Architect</h3>
+        <p>Building intelligent systems, scalable AI infrastructure and high-performance engineering solutions.</p>
+
+        <a href="#contact" class="btn">Let's Talk</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/profile.jpg" alt="Profile Photo">
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+    <h2>About <span>Me</span></h2>
+    <div class="about-content">
+        <img src="images/profile.jpg" alt="Profile Photo">
+        <div>
+            <h3>AI Systems Architect</h3>
+            <p>
+                I design scalable AI systems, cloud architectures, and intelligent automation solutions.
+                Passionate about building impactful technology.
+            </p>
+            <a href="#contact" class="btn">Hire Me</a>
         </div>
+    </div>
+</section>
 
-        <div class="project">
-            <h3>Autonomous Surveillance Drone</h3>
-            <p>Arduino-based drone capable of detecting objects including humans and returning autonomously for recharging.</p>
-            <a href="https://github.com/hezron/project2" target="_blank">View Code</a>
-        </div>
+<!-- SKILLS -->
+<section id="skills" class="skills">
+    <h2>My <span>Skills</span></h2>
 
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>Designed and deployed this professional portfolio using HTML, CSS, and GitHub Pages.</p>
-            <a href="https://github.com/hezron/portfolio" target="_blank">View Code</a>
-        </div>
-    </section>
+    <div class="skill">
+        <p>Machine Learning</p>
+        <div class="progress"><div style="width: 90%"></div></div>
+    </div>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:hezronnyakeruma@gmail.com">hezronnyakeruma@gmail.com</a></p>
-        <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
-    </section>
+    <div class="skill">
+        <p>Python</p>
+        <div class="progress"><div style="width: 85%"></div></div>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Nyakeruma Hezron. All Rights Reserved.</p>
-    </footer>
+    <div class="skill">
+        <p>Data Engineering</p>
+        <div class="progress"><div style="width: 80%"></div></div>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="skill">
+        <p>Cloud Architecture</p>
+        <div class="progress"><div style="width: 75%"></div></div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact <span>Me</span></h2>
+    <p>Email: <a href="mailto:yourrealemail@gmail.com">yourrealemail@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
